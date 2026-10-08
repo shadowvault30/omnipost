@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Data Deletion Instructions - Omnipost</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --border: #30363d;
+      --text: #c9d1d9;
+      --heading: #f0f6fc;
+      --accent: #58a6ff;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      background-color: var(--bg);
+      color: var(--text);
+      margin: 0;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      padding: 40px;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+    }
+    h1, h2, h3 {
+      color: var(--heading);
+      margin-top: 28px;
+    }
+    h1 {
+      margin-top: 0;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 12px;
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .last-updated {
+      color: #8b949e;
+      font-size: 0.9em;
+      margin-bottom: 24px;
+    }
+    ol, ul {
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    .nav {
+      margin-bottom: 24px;
+    }
+    .step-box {
+      background: #0d1117;
+      padding: 16px 20px;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      margin: 16px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="nav">
+      <a href="index.html">← Back to Home</a> | <a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a>
+    </div>
+
+    <h1>User Data Deletion Instructions</h1>
+    <div class="last-updated">Last Updated: October 2026</div>
+
+    <p>Omnipost respects your privacy and control over your personal data. In accordance with platform developer policies (including Meta Platform Data Deletion Requirements and GDPR/CCPA regulations), this page explains how you can remove your data and revoke application permissions.</p>
+
+    <h2>How to Delete Your Data from Omnipost</h2>
+    <p>Because Omnipost operates as a self-hosted client on your own computer, all data is stored locally on your machine. You can remove all data immediately through any of the following methods:</p>
+
+    <div class="step-box">
+      <h3>Option 1: Disconnect Within the App</h3>
+      <ol>
+        <li>Open your Omnipost dashboard (e.g. <code>http://localhost:3000</code>).</li>
+        <li>Navigate to the <strong>Settings / Accounts</strong> tab.</li>
+        <li>Click <strong>Disconnect</strong> next to Facebook, Instagram, TikTok, YouTube, or X.</li>
+        <li>This immediately deletes the stored access tokens and profile information from your local configuration.</li>
+      </ol>
+    </div>
+
+    <div class="step-box">
+      <h3>Option 2: Clear Local Data Storage</h3>
+      <p>You can completely erase all credentials and history by deleting the local data store file on your computer:</p>
+      <code>omnipost/data/store.json</code>
+    </div>
+
+    <div class="step-box">
+      <h3>Option 3: Revoke Permissions on Connected Platforms</h3>
+      <p>You can revoke Omnipost's access directly on each platform at any time:</p>
+      <ul>
+        <li><strong>Facebook & Instagram:</strong> Go to Facebook <em>Settings & Privacy > Settings > Apps and Websites</em>, find Omnipost, and click <strong>Remove</strong>.</li>
+        <li><strong>Google / YouTube:</strong> Go to your <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">Google Account Permissions</a> and remove access for Omnipost.</li>
+        <li><strong>TikTok:</strong> Go to TikTok app <em>Settings > Security & Permissions > Manage App Permissions</em> and remove Omnipost.</li>
+        <li><strong>X (Twitter):</strong> Go to X <em>Settings & Privacy > Security and account access > Apps and sessions > Connected apps</em> and revoke access.</li>
+      </ul>
+    </div>
+
+    <h2>Manual Data Deletion Request</h2>
+    <p>If you have any questions or need assistance with data removal, please submit a request to:</p>
+    <p><strong>Email:</strong> <a href="mailto:shadowvault30@gmail.com">shadowvault30@gmail.com</a></p>
+  </div>
+</body>
+</html>

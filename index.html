@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Omnipost - Multi-Platform Video Publisher</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --border: #30363d;
+      --text: #c9d1d9;
+      --heading: #f0f6fc;
+      --accent: #58a6ff;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      background-color: var(--bg);
+      color: var(--text);
+      margin: 0;
+      padding: 60px 20px;
+      display: flex;
+      justify-content: center;
+    }
+    .container {
+      max-width: 700px;
+      width: 100%;
+      background: var(--card-bg);
+      padding: 48px;
+      border-radius: 14px;
+      border: 1px solid var(--border);
+      text-align: center;
+    }
+    .logo {
+      font-size: 3rem;
+      margin-bottom: 12px;
+    }
+    h1 {
+      color: var(--heading);
+      font-size: 2rem;
+      margin: 0 0 16px 0;
+    }
+    p.subtitle {
+      font-size: 1.15rem;
+      color: #8b949e;
+      margin-bottom: 32px;
+    }
+    .links-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 16px;
+      margin: 32px 0;
+    }
+    .link-card {
+      background: #0d1117;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 20px;
+      text-decoration: none;
+      color: var(--heading);
+      transition: all 0.2s ease;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+    }
+    .link-card:hover {
+      border-color: var(--accent);
+      transform: translateY(-2px);
+    }
+    .link-card span {
+      font-size: 0.85rem;
+      color: #8b949e;
+    }
+    .footer {
+      margin-top: 32px;
+      color: #8b949e;
+      font-size: 0.85rem;
+      border-top: 1px solid var(--border);
+      padding-top: 24px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">🚀</div>
+    <h1>Omnipost</h1>
+    <p class="subtitle">Multi-platform video publishing engine for YouTube Shorts, Facebook, Instagram Reels, TikTok, and X.</p>
+
+    <div class="links-grid">
+      <a href="privacy.html" class="link-card">
+        <strong>🔒 Privacy Policy</strong>
+        <span>How your data is protected</span>
+      </a>
+      <a href="terms.html" class="link-card">
+        <strong>📜 Terms of Service</strong>
+        <span>Terms and conditions</span>
+      </a>
+      <a href="deletion.html" class="link-card">
+        <strong>🗑️ Data Deletion</strong>
+        <span>Data removal instructions</span>
+      </a>
+    </div>
+
+    <div class="footer">
+      <p>&copy; 2026 Omnipost. For developer inquiries: <a href="mailto:shadowvault30@gmail.com" style="color: var(--accent);">shadowvault30@gmail.com</a></p>
+    </div>
+  </div>
+</body>
+</html>
