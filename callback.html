@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TikTok Auth Redirecting...</title>
+</head>
+<body>
+  <p>Authenticating with Omnipost... Please wait.</p>
+  <script>
+    // Forward the OAuth code and state from TikTok to the local Omnipost server
+    const search = window.location.search;
+    window.location.href = 'http://localhost:3000/api/auth/tiktok/callback' + search;
+  </script>
+</body>
+</html>
